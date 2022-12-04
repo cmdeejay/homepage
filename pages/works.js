@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbIDclass from '../public/images/works/cnidclass_01.png'
-import thumbAOP from '../public/images/works/AOP_01.png'
+import thumbAOP from '../public/images/works/ninja_01.png'
 
 const Works = () => {
   return (
@@ -13,7 +13,7 @@ const Works = () => {
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section>
           <WorkGridItem 
-            id="Ninja" 
+            id="ninja" 
             title="Ninja" 
             thumbnail={thumbAOP}
           >
