@@ -27,7 +27,7 @@ const Work = () => {
           it is really start getting interesting.
         </P>
         <P>
-          Auto-translation is never the end of the development, new account monitor, browser automation, file-upload with API, ID classifier and teams notification webhook... 
+          Auto-translation is never the end of the development, new account monitor, browser automation, file-upload with API, ID classifier and MS Teams webhook... 
         </P>
         <P> 
           Ninja is getting better and better.
