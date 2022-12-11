@@ -58,7 +58,7 @@ const Page = () => {
         </Heading>
         <Paragraph>
           Min Chen is a Software Engineer who is passionate about building
-          optimize digital solution for the business unit. From planning and
+          optimized digital solution for the business unit. From planning and
           designing all the way to solving real-life problems with code
           particularly in finance industry. His expertise includes but is not
           limited to using deep learning techniques, convolutional neural
@@ -94,7 +94,7 @@ const Page = () => {
           Completed the IBM AI Engineering Professional Certificate.
         </BioSection>
         <BioSection>
-          <BioYear>2022 to Present</BioYear>
+          <BioYear>2022</BioYear>
           Developed Automated Onboarding Process(AOP) for Multibank Group.
         </BioSection>
       </Section>
