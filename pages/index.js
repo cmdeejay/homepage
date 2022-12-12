@@ -4,6 +4,9 @@ import {
   Box,
   Button,
   Link,
+  List,
+  ListItem,
+  Icon,
   Heading,
   Image,
   useColorModeValue
@@ -13,6 +16,14 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
+import {
+  IoLogoLinkedin,
+  IoLogoInstagram,
+  IoLogoGithub
+} from 'react-icons/io5'
+
+
+
 
 const Page = () => {
   return (
@@ -103,14 +114,45 @@ const Page = () => {
           I ♥
         </Heading>
         <Paragraph>
-          <Link href="">Art</Link>, <Link href="">Badminton</Link>,{' '}
+          Art, Badminton, {' '}
           <Link href="">Machine Learning</Link>,{' '}
-          <Link href="">Stock Trading</Link>
+          Stock Trading
         </Paragraph>
       </Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          On the web
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/cmdeejay" target="_blank">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>@cmdeejay</Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/min--chen/" target="_blank">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>Min Chen</Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.instagram.com/cmdeejay" target="_blank">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>@cmdeejay</Button>
+            </Link>
+          </ListItem>
+        </List>
+      </Section>
+        <Box align="center" my={4}>
+          <NextLink href="/posts" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" >
+              Popular posts
+            </Button>
+          </NextLink>
+        </Box>
+      <Section />
     </Container>
   </Layout>
   )
 
 }
 export default Page
+export { getServerSideProps} from '../components/chakra'
