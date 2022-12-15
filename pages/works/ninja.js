@@ -23,7 +23,7 @@ const Work = () => {
           Background
         </Heading>
         <P>
-          As an Account Application team leader in Multibank Group, the main task is to process client KYC documents. The initial purpose of the tool is to generate the translation of a Chinese ID card for creating the confirmation of translation. Since the most time-consuming part of processing accounts is ID translation, I find that certain technology can be linked together to solve the problem, namely, Tesseract (image to text) and googletrans (translation).
+          As an Account Application team leader in Multibank Group, the main task leading the team to process client KYC documents. The initial purpose of the tool is to generate the translation of a Chinese ID card for creating the confirmation of translation. Since the most time-consuming part of processing accounts is ID translation, I find that certain technology can be linked together to solve the problem, namely, Tesseract (image to text) and googletrans (translation).
         </P>
         <P>
           It was about two weeks the automated translator or so called COT generator has been created, the machine will take three parts of the ID card as input, and output a formatted COT word document.(See details from below Blogpost.) The translation process has been replaced by machine and it is really start getting interesting.
