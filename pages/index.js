@@ -43,7 +43,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Min Chen
           </Heading>
-          <p>Software Developer/ AI Engineer/ Quantitative Trading</p>
+          <p>Work Automation/ AI Engineer/ Data Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -68,12 +68,12 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Min Chen is a Software Engineer who is passionate about building
+          Min Chen is a Data Engineer who is passionate about building
           optimized digital solution for the business unit. From planning and
           designing all the way to solving real-life problems with code
           particularly in finance industry. His expertise includes but is not
-          limited to using deep learning techniques, convolutional neural
-          networks(CNN), data ETL, REST APIs and browser automation.
+          limited to Browser Automation, Convolutional Neural
+          Networks(CNN), Transfer Learning, Data ETL, REST APIs and Relational Database.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
